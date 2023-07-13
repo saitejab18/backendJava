@@ -1,0 +1,16 @@
+package hello;
+
+public class DataTypes {
+	public static void main(String args[]) {
+int a = 10;
+float b = 20;
+short c = 30;
+long d = 40;
+char e ='S';
+byte f = 10;
+boolean g = true;
+String s = "Virat Kohli";
+int x[]= {1,2,3,4,5};
+System.out.println(a);
+	}
+}

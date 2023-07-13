@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+D:\digital lync\CoreJava\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3674275368.index
+985413812.index
+387762901.index
