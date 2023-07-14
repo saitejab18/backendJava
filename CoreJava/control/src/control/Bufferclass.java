@@ -8,13 +8,21 @@ public class Bufferclass {
 	public static void main(String[] args) throws IOException
 	{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter any number:");
 		String readLine = reader.readLine();
 		int a = Integer.parseInt(readLine);
-		System.out.println(a);
 		if(a < 20) {
-			System.out.println("If Block Executed 03");
-		}else {
-			System.out.println("Else Block Executed 03");
+			System.out.println("If block");
+		}else if(a<30){
+			System.out.println("Else if 01");
+		}
+		else if(a<40)
+		{
+			System.out.println("else if 02");
+		}
+		else
+		{
+			System.out.println("Else block");
 		}
 		reader.close();
 	}
