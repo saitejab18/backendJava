@@ -41,9 +41,5 @@ public class Eg1 {
 
 	}
 
-	private static Small Small(Big b) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	
 }
