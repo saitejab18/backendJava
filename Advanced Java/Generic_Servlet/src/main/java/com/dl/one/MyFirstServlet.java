@@ -9,11 +9,13 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 
-public class MyFirstServlet extends GenericServlet {
+public class MyFirstServlet extends GenericServlet 
+{
 	private static final long serialVersionUID = 1L;
        
    
-	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
+	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException 
+	{
 		
 		PrintWriter writer = response.getWriter();
 		writer.println("service() invoked");
@@ -21,5 +23,4 @@ public class MyFirstServlet extends GenericServlet {
 		StringBuffer sb = new StringBuffer("Hello Generic Servlet");
 		writer.println(sb);
 	}
-
 }
